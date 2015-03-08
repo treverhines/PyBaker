@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import argparse
 import numpy as np
+import json
 
 ##-------------------------------------------------------------------------------
 parser = argparse.ArgumentParser(
@@ -51,6 +52,9 @@ water_density = 236 # grams per cup
 milk_density = 234 # grams per cup
 sugar_density = 200 # grams per cup
 
+converter_file = open('converter.json','r')
+converter = json.load(converter_filer)
+'''
 converter = {
             'water':
               {
@@ -96,7 +100,7 @@ converter = {
               'unit':'cups'
               }
             }
-
+'''
 recipes = {
           'overnight':
             {

@@ -1,0 +1,18 @@
+{
+ "water":{"value":0.004237,
+          "unit":"cups"},
+ "starter":{"value":0.005263,
+            "unit":"cups"},
+ "flour":{"value":0.008,
+          "unit":"cups"},
+ "sugar":{"value":0.005,
+          "unit":"cups"},
+ "egg":{"value":0.02,
+        "unit":"eggs"},
+ "butter":{"value":0.008849,
+           "unit":"sticks"},
+ "malt":{"value":0.04761,
+         "unit":"tbsp"},
+ "milk":{"value":0.004237,
+         "unit":"cups"}
+}
