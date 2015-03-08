@@ -54,96 +54,9 @@ sugar_density = 200 # grams per cup
 
 converter_file = open('converter.json','r')
 converter = json.load(converter_file)
-'''
-converter = {
-            'water':
-              {
-              'value':1.0/236.0,
-              'unit':'cups'
-              },
-            'starter':
-              {
-              'value':1.0/190.0,
-              'unit':'cups'
-              },
-            'flour':
-              {
-              'value':1.0/125.0,
-              'unit':'cups'},
-            'sugar':
-              {
-              'value':1.0/200.0,
-              'unit':'cups'
-              },
-            'egg':
-              { 
-              'value':1.0/50.0,
-              'unit':'eggs'
-              },
-            'salt':
-              {
-              'value':1.0/3.33,
-              'unit':'tsps'
-              },
-            'butter':
-              {
-              'value':1.0/113.0,
-              'unit':'sticks'},
-            'malt':
-              {
-              'value':1.0/21.0,
-              'unit':'tbsp'
-              },
-            'milk':
-              {
-              'value':1.0/236.0,
-              'unit':'cups'
-              }
-            }
-'''
-recipes = {
-          'overnight':
-            {
-            'ingredients':
-              {  
-              'salt':0.015
-              },
-            'hydration':0.69,
-            'sour_factor':0.12
-            },
-          'sour':
-            {
-            'ingredients':
-              {
-              'salt':0.015
-              },
-            'hydration':0.60,
-            'sour_factor':0.5
-            },
-          'sweet':
-            {
-            'ingredients':
-              {
-              'egg':0.15,	
-              'sugar':0.1,
-              'butter':0.15,
-              'salt':0.005
-              },
-            'hydration':0.42,
-            'sour_factor':0.4
-            },
-          'bagel':
-            {
-            'ingredients':
-              {
-              'malt':0.03,
-              'salt':0.015
-              },
-            'hydration':0.50,
-            'sour_factor':0.50
-            }
-          }
-       
+recipes_file = open('recipes.json','r')
+recipes = json.load(recipes_file)
+
 ##------------------------------------------------------------------------------
 def ingredient_mass(total_mass,recipe,starter_hydration):
   hydration = recipe['hydration']
