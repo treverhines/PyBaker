@@ -1,0 +1,24 @@
+{
+'overnight':{'ingredients':{'salt':0.015},
+             'hydration':0.69,
+             'sour_factor':0.12},
+'sour':{'ingredients':{'salt':0.015},
+        'hydration':0.60,
+        'sour_factor':0.5},
+'sweet':{'ingredients':{'egg':0.15,
+                        'sugar':0.1,
+                        'butter':0.15,
+                        'salt':0.005},
+         'hydration':0.42,
+         'sour_factor':0.4},
+          'bagel':
+            {
+            'ingredients':
+              {
+              'malt':0.03,
+              'salt':0.015
+              },
+            'hydration':0.50,
+            'sour_factor':0.50
+            }
+          }
