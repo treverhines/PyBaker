@@ -53,7 +53,7 @@ milk_density = 234 # grams per cup
 sugar_density = 200 # grams per cup
 
 converter_file = open('converter.json','r')
-converter = json.load(converter_filer)
+converter = json.load(converter_file)
 '''
 converter = {
             'water':

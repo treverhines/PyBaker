@@ -9,6 +9,8 @@
           "unit":"cups"},
  "egg":{"value":0.02,
         "unit":"eggs"},
+ "salt":{"value":0.3,
+        "unit":"tsps"},
  "butter":{"value":0.008849,
            "unit":"sticks"},
  "malt":{"value":0.04761,
